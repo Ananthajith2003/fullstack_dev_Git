@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>
+        <b>Welcome to Full Stack Development Registration</b>
+    </h1>
+    <img src="images.jpeg">
+    <form id="registrationForm">
+        <h3>Name:</h3>
+        <input type="text" id="name" name="name" required>
+
+        <h3>Age:</h3>
+        <input type="number" id="age" name="age" required>
+
+        <h3>Date of Birth (YYYY-MM-DD):</h3>
+        <input type="text" id="dob" name="dob">
+
+        <h3>Username:</h3>
+        <input type="text" id="username" name="username" required>
+
+        <h3>Password:</h3>
+        <input type="password" id="password" name="password" required>
+
+        <h3>Confirm Password:</h3>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <h3>Address:</h3>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <h3><label>Gender:</label><br></h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <h3>Email ID:</h3>
+        <input type="email" id="email" name="email" required>
+
+        <h3>Mobile Number:</h3>
+        <input type="tel" id="mobile" name="mobile" required>
+
+        <h3><label>Qualification:</label><br></h3>
+        <input type="checkbox" id="10th" name="qualification" value="10th">
+        <label for="10th">10th</label><br>
+        <input type="checkbox" id="12th" name="qualification" value="12th">
+        <label for="12th">12th</label><br>
+        <input type="checkbox" id="btech" name="qualification" value="btech">
+        <label for="btech">B.Tech</label><br>
+        <input type="checkbox" id="mtech" name="qualification" value="mtech">
+        <label for="mtech">M.Tech</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body> 
+</html>
